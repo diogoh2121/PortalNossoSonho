@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #f5bdbd;
+    background-image: url(/Ramake/assents/background.jpg);
+    background-image: repeating-linear-gradient();
+}
+
+header{
+    background: rgb(37,12,11);
+    background: linear-gradient(-55deg, rgba(37,12,11,1) 0%, rgba(255,124,0,1) 100%);;
+}
+
+
+.text_rotate{
+    background-color: rgb(192, 95, 4);
+    font-size: large;
+    font-size: x-large;
+}
+
+.img img{
+    width: 5%;
+    margin-left: 35px;
+    display: flex;
+}
+
+.texto{
+    margin-top: 150px;
+    margin-left: 275px;
+}
+
+.texto h1{
+    font-size: 30px;
+    color: aliceblue;
+}
+.texto p{
+    margin: 20px 0;
+    color: aliceblue;
+    font-size:14px;
+    font-weight:bold;
+    max-width: 800px;
+}
+
+.texto button{
+    margin-left: -10px;
+    border: 0;
+    background-color: rgb(18, 51, 18);
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.texto button a{
+    color: white;
+    text-decoration: none;
+}
+
+.fundo{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 1.5rem;
+    padding-block-start: -11px;
+    padding-block-end: 88px;
+    margin: 0px;
+    background-color: rgba(255,124,0,1)
+}
+
+.button a {
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.button a {
+    margin-top: 8px;
+    display: flex;
+    padding-left: 66px;
+    align-items: center;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* altura do rodapé */
+}
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #300c0c;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .social-icons .social-icon:last-child {
+    margin-right: 0;
+  }
+  .social-icons .social-icon:hover {
+    background-color: #bd5d38;
+  }
+  .meu-botao{
+  color: white;
+
+  }
+  .textoabout h2{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
