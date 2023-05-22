@@ -73,3 +73,14 @@ input{
 #slide3:checked ~.s1{
     margin-left: -40%;
 }
+.conteudo12{
+    height: 520px;
+    width: 1000px;
+    border-radius: 7px;
+    overflow: hidden;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    box-shadow: 10px 20px rgb(109, 46, 1)
+
+}
