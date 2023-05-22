@@ -128,3 +128,30 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
   }
+.materia p{
+    position: absolute;
+    margin: 3%;
+    margin-top: 7%;
+  }
+  .titulo h1{
+    position: absolute;
+    margin: 3%;
+
+  }
+  .imn{
+    position: absolute;
+    margin: 24%;
+    align-items: normal;
+  }
+
+  .textoabout p{
+    position: absolute;
+    margin: 10%;
+    margin-left: 13%;
+    
+  }
+  .textoabout h2{
+    position: absolute;
+    margin-top: 7%;
+    margin-left:32% ;
+  }
